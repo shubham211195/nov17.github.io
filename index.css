@@ -1,0 +1,52 @@
+div{
+    background-color: #007065;
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+}
+
+.christmas{
+    position: relative;
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-width: 50px;
+    border-color: transparent;
+    border-bottom-color:#FFEECF;
+    margin: auto;
+    margin-top: 100px;
+    z-index: 2;
+}
+.second{
+    position: relative;
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-width: 50px;
+    border-color: transparent;
+    margin: auto;
+    margin-top: -90px;
+    border-bottom-color:#F5C181;
+    z-index:1;
+}
+.third{
+    position: relative;
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+    border-style: solid;
+    border-width: 50px;
+    border-color: transparent;
+    margin: auto;
+    margin-top: -92px;
+    z-index: 0;
+    border-bottom-color: #00A79D ;
+}
+button{
+    size: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    float: right;
+}
